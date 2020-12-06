@@ -1,1 +1,1 @@
-# Reacr Redux SpaceX Simple App
+# React Redux SpaceX Simple App
