@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.rocket-item {
+  width: calc(50% - 15px);
+  padding: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: rgb(223, 190, 162);
+  display: flex;
+  flex-direction: column;
+
+  .images {
+    flex-grow: 1;
+    margin-bottom: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  hr {
+    margin-bottom: 10px;
+  }
+
+  .read-more {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.rockets-list {
+  padding: 15px;
+  margin: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-rocket {
+  margin: 15px;
+  padding: 30px;
+  background-color: rgb(24, 66, 100);
+  color: white;
+  text-align: center;
+
+  .images {
+    padding-top: 15px;
+    margin: 0 -15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    img {
+      width: 50%;
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+  }
+
+  hr {
+    margin: 15px;
+  }
+
+  p {
+    font-style: italic;
+  }
+
+  .descr {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+
+.back-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: rgb(209, 140, 12);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: rgb(155, 104, 10); 
+  }
+}

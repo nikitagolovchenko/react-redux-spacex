@@ -1,0 +1,4 @@
+export const FETCH_ALL_ROCKETS = 'FETCH_ALL_ROCKETS';
+export const FETCH_ONE_ROCKET = 'FETCH_ONE_ROCKET';
+export const FETCH_ERROR = 'FETCH_ERROR';
+export const FETCH_ONE_ERROR = 'FETCH_ONE_ERROR';
